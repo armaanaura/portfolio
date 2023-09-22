@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="navdiv">
+          <div class="left"><a href="index.html">Armaan Aura</a> </div>
+          <div class="right">
+            <ul id="sideMenu">
+              <!-- <div class="sidemenudiv"> -->
+              <li id="sm1"><a href="About.html" >About</a></li>
+              <li><a href="projectPage.html">Projects</a></li>
+              <li><a href="#contactus">Contact</a></li>
+              <!-- <hr style="width:80%"> -->
+              <li><a href="Resume.html" id="resume">Resume</a></li>
+              <div class="cross" ><button onclick="closeMenu()" class="crossButton">X</button> </div>
+            <!-- </div> -->
+            </ul>
+            <div class="cross" ><button  onclick="openMenu()" class="menuButton"><div class="menu"></div>
+              <div class="menu"></div>
+              <div class="menu"></div></button> </div>
+            </div>
+          </div>
+        </div>
+        </nav>
+      </header>
+      <main>
+        <div class="first">
+            <!-- <div class="banner">
+                <img src="Assets\chatgptbanner.jpg" alt="">
+            </div> -->
+            <div class="black">
+              <div class="title">
+                <h1>Chat GPT Clone</h1>
+              </div>
+              <div class="poweredBy">
+                Powered by OpenAI & Mongo DB
+              </div>
+              <div class="githubButton">
+                <button id="github">
+                  <div style="display: flex;align-items:center">
+                    <img src="Assets\github.png" alt="" style="height: 30px;margin-right:10px">
+                    GitHub
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="about">
+              <div class="overview">
+                <h1>Overview</h1>
+                <br>
+                The ChatGPT Clone Project is an innovative and engaging application that brings together the power of artificial intelligence, MongoDB for data storage, Flask for backend development, HTML/CSS for user interface design, and JavaScript for dynamic interactivity. By integrating OpenAI's GPT-3 technology, this project aims to create a responsive and intelligent chatbot capable of holding natural and meaningful conversations with users. Databases like MongoDB are used to store conversations of repeated questions.              </div>
+              <div class="technologySection">
+                <div class="techHeading">
+                  <h1>Technologies Used</h1>
+                </div>
+                <div class="techRow">
+                  <div><img src="Assets/mongodblogo.png" alt="">Mongo DB</div>
+                  <div><img src="Assets/openailogo.png" alt="">OpenAI</div>
+                </div>
+                <div class="techRow">
+                  <div><img src="Assets\flasklogo.png" alt="">Flask</div>
+                  <div><img id="jsimg" src="Assets\jslogo.png" alt="">JS</div>
+                </div>
+                <div class="techRow">
+                  <div><img src="Assets\htmllogo.png" alt="">HTML</div>
+                  <div><img src="Assets\CSS3_logo.svg.png" alt="">CSS</div>
+                </div>
+              </div>
+            </div>
+            <section class="secondSectionProject">
+              <div class="photos">
+                <div class="photo">
+                  <img src="Assets\1x\laptop photo-8.png" alt="">
+                </div>
+                <div class="photo">
+                  <img src="Assets\1x\flowchart-8.png" alt="">
+                </div>
+              </div>
+              <!-- <div class="photos">
+                <div class="photo">
+                  <img src="Assets\1x\laptop photo-8.png" alt="">
+                </div>
+                <div class="photo">
+                  <img src="Assets\1x\laptop photo-8.png" alt="">
+                </div>
+              </div> -->
+            </section>
+            <section class="thirdSectionProject">
+              <div class="features">
+                <h1>Features</h1>
+                <p>AI-Powered Conversations: Experience natural, AI-driven conversations that adapt to user input, powered by OpenAI's GPT-3 technology.</p><br>
+                <p>Flask Backend Development: Utilize Flask, a Python web framework, for efficient server-side logic handling, API communication, and OpenAI integration.</p><br>
+                <p>Persistent MongoDB Storage: Store and recall user interactions and conversation history in MongoDB, enabling personalized and context-aware responses.</p><br>
+                <p>Real-Time JavaScript Interactivity: Enhance user engagement with real-time features like message scrolling, input validation, and dynamic content loading.</p>
+              </div>
+              <div class="explained">
+                <h1>Technologies Explained</h1>
+                <p>Seamless OpenAI API Integration:
+                  Leveraging the formidable OpenAI API, our platform harnesses an exceptional language model that empowers users to craft precise text effortlessly.</p><br>
+                <p>Robust Chat Preservation with MongoDB:
+                  We employ MongoDB to diligently archive user chats, ensuring a seamless record of your conversations for easy retrieval and reference.</p><br>
+                <p>Smart Q&A Management:
+                  Our system intelligently stores past questions and answers in MongoDB, effectively reducing API queries and delivering prompt responses when users revisit the same queries.</p><br>
+                <p>Intuitive User Interface Powered by JavaScript and Flask:
+                  Enhancing the user experience, our platform boasts an intuitively designed interface crafted with JavaScript and Flask, making interactions user-friendly and engaging.</p>
+              </div>
+            </section>
+            <!-- <hr id="lasthr"> -->
+            <section class="conclusion">
+              ChatGPT clone has not only showcased the potential of AI-driven conversations but has also introduced a groundbreaking feature – the ability to revisit and build upon past chats. As we look to the future of conversational AI, the possibilities are endless. Thank you for joining me on this exploration, and I look forward to continued innovation in the world of technology and AI.
+            </section>
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="footerIcon"><a href="https://www.instagram.com/armaanaura/" target="_blank"><button class=" footerLinks"><img src="Assets\insta.png" height="100%" alt=""></button></a></div>
+          <div class="footerIcon"><a href="https://www.linkedin.com/in/armaanaura/" target="_blank"><button class=" footerLinks"><img src="Assets\ll.png" height="100%" alt=""></button></a></div>
+          <div class="footerIcon"><a href="https://twitter.com/Armaan_Aura" target="_blank"><button class="footerLinks"><img src="Assets\twitter.png" height="100%" alt=""></button></a></div>
+          <div class="footerIcon"><a href="https://github.com/armaanaura" target="_blank"><button class="footerLinks" id="git"><img src="Assets\github.png" height="100%" alt=""></button></a></div>
+        </div>
+        <div class="copyright">
+          &copy ArmaanAura | New Neurals
+        </div>
+      </footer>
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['ML Engineer','Content Writer','Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script>
+        var setMenu= document.getElementById("sideMenu");
+        function openMenu(){
+          setMenu.style.right="0";
+          setMenu.style.transition="0.3s"
+        }
+        function closeMenu(){
+          setMenu.style.right="-200px";
+          setMenu.style.transition="0.3s"
+        }
+      </script>
+</body>
+</html>

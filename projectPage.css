@@ -1,0 +1,147 @@
+.body{
+    max-width: 100%;
+    overflow-x:auto;
+}
+.banner{
+    background-image: url("Assets/pexels-tima-miroshnichenko-5380607.jpg");
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading h1{
+    font-size: 100px;
+}
+.githubButton{
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    /* border: 1px; */
+    border: solid;
+    border-color: white;
+}
+.githubButton:hover{
+    background-color: white;
+    color: black;
+    font-weight: 200;
+}
+.projects{
+    background-color: black;
+    /* height: 1000px; */
+    /* width: 100vw; */
+}
+.black{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+}
+.title h1{
+    font-size:100px;
+    font-family: 'Prata', serif;
+}
+.poweredBy{
+    font-size: 25px;
+}
+.projectList{
+    padding-top: 0;
+    display: block;
+}
+#project1banner{
+    width: 100%;
+    
+    background-image: url("Assets/1x/chatgptbanner-8.png");
+}
+#project2banner{
+    width: 100%;
+    background-image: url("Assets/advanced-ai-anatomy-artificial.jpg");
+    background-repeat:no-repeat;
+    background-repeat: repeat-x;
+}
+#project3banner{
+    width: 100%;
+    background-image: url("Assets/pexels-tima-miroshnichenko-5380607.jpg");
+}
+.details{
+    width: 70%;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+    
+}
+.details hr{
+    margin-top: 70px;
+    border: none;
+    height: 0.009cm;
+    background-color: white;
+}
+
+@media screen and (max-width:728px){
+    .banner{
+        background-image: url("Assets/pexels-tima-miroshnichenko-5380607.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        /* background-size: 100%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .heading h1{
+        font-size: 80px;
+    }
+    .projectList{
+        padding-top: 100px;
+        background-color: black;
+    }
+    .projects h1{
+        font-size: 60px;
+    }
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+    .poweredBy{
+        font-size: 20px;
+    }
+    .details h1{
+        font-size: 30px;
+    }
+    .projects hr{
+        margin-top: 30px;
+    }
+    
+    .details{
+        margin: 0;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 90vw;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding: 0px;
+        text-align: center;
+        /* width: 100%; */
+        /* padding-left: 30px;
+        padding-right: 20px; */
+    }
+    .contact{
+        max-width: 95vw;
+    }
+}

@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  .menu{
+    width: 20px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0;
+  }
+  #resume{
+    color: rgb(245, 187, 0);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    
+  }
+  .navdiv{
+    width: 74%;
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+  }
+  .right{
+    display: flex;
+    /* width: 70%; */
+    margin-right: 0;
+    justify-content: end;
+    padding-top: 7px;
+  }
+  nav {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    padding-top: 15px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  .cross{
+    font-size: 1.5rem;
+    background-color: black;
+  }
+  .crossButton{
+    background-color:transparent;
+    color: white;
+    border: none;
+  }
+  nav ul li {
+    list-style: none;
+    margin-left: auto;
+    padding-left: 25px;
+  }
+  .left {
+    font-size: 1.5rem;
+
+  }
+  
+  .left a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: px;
+  }
+  .left a:hover{
+    color: rgb(245, 187, 0);
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    align-items: center;
+    overflow: hidden;
+  }
+  .leftSection {
+    font-size: 2.5rem;
+    margin-left: 75px;
+  }
+  .firstSection div {
+    width: 30%;
+  }
+  .rightSection {
+    align-items: end;
+  }
+  .rightSection img {
+    width: 135%;
+    overflow: hidden;
+  }
+  .yellow {
+    color: rgb(245, 187, 0);
+  }
+  .right ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .right ul li a:hover {
+    color: rgb(245, 187, 0);
+  }
+  #element{
+    color: rgb(245, 187, 0);
+  }
+  .secondSection{
+    width: 100%;
+    background-color: black;
+  }
+  .secondSection div{
+
+    margin: auto;
+    max-width: 73vw;
+    
+  }
+  .secondSection div h1{
+    font-size: 1.9rem;
+  }
+  .text-grey{
+    color: grey;
+  }
+  .buttons{
+    margin-top: 40px;
+    
+    display: flex;
+    
+  }
+  .github{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;;
+    padding: 5px;
+    border-color: none;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+  }
+  .github:hover{
+    background-color: rgb(158, 158, 158);
+  }
+  .linkedin:hover{
+    background-color: rgb(158, 158, 158);
+  }
+  .linkedin{
+    margin-left: 20px;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color:black;
+    font-size: 1.2rem;
+    border-color:none;
+    align-items: center;
+    padding: 10px;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .linkedin b{
+    margin-right:10px ;
+    color: white;
+    background-color: black;
+    padding:0 6px;
+  }
+  .buttons img{
+    margin-right: 10px;
+  }
+  #linkedinlogo{
+    font-size: 1.3rem;
+  }
+  .buttons a{
+    text-decoration: none;
+  }
+  .projectList{
+    display: flex;
+  }
+  .heading{
+    padding-top: 50px;
+  }
+  .projectList{
+    padding-top: 40px;
+    overflow: auto;
+  }
+  .projectList::-webkit-scrollbar{
+    background: transparent;
+    height: 2px;
+  }
+  .projectList::-webkit-scrollbar-thumb{
+    background-color: rgb(245, 187, 0);
+    
+    
+  }
+  
+  .knowMore{
+    margin-right: 10px;
+    height: 30px;
+    display: flex;
+    background-color: rgb(245, 187, 0);
+    color:black;
+    border-color:none;
+    align-items: center;
+    padding: 10px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .githubProject{
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 215, 215);
+    color: black;
+    justify-content: center;
+    padding: 5px;
+    border-color: none;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+  }
+  .allProjects{
+    width: 100%;
+    display: flex;
+    padding:30px 0 ;
+    justify-content: center;
+  }
+  .allProjects a{
+    text-decoration: none;
+
+  }
+  .apb{
+    margin-right: 10px;
+    height: 30px;
+    display: flex;
+    background-color: rgb(245, 187, 0);
+    color:black;
+    border-color:none;
+    align-items: center;
+    padding: 10px 40px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+  }
+  .aproject{
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  .thirdSection{
+    margin: 0 190px;
+
+    display: flex;
+
+    margin-bottom: 100px;
+
+  }
+  .r3{
+    width: 40%;
+    padding-top: 50px;
+  }
+  .r3 h2{
+    padding-left: 0px;
+  }
+  .l3{
+    width: 60%;
+    padding-top: 50px;
+
+  }
+  .l3 h1,h2{
+    padding-left: 10px;
+  }
+  
+  .thirdSection div h1{
+    font-size: 1.9rem;
+  }
+  h2{
+    font-size: 1.2rem;
+    padding-bottom: 2px;
+  }
+  .s-set1{
+    display: flex;
+    margin-top: 30px;
+  }
+  .s11{
+    width: 50%;
+  }
+  .s21{
+    width: 100%;
+  }
+  .s12{
+    width: 50%;
+    justify-content: space-between;
+  }
+  .skills{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap ;
+    padding-right: 10px;
+  }
+  .skill{
+    font-size: small;
+    background-color: rgb(40, 40, 40);
+    border-radius: 20px;
+    margin-right: 5px;
+    margin: 5px;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+  }
+  .s11 span{
+    font-size: small;
+    background-color: rgb(40, 40, 40);
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+  }
+  .s21 span{
+    font-size: small;
+    background-color: rgb(40, 40, 40);
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+  }
+  .fourthSection{
+    padding: 40px 0 0 0;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact{
+    background-color: black;
+    padding-bottom: 50px;
+  }
+  .extra{
+    font-size:2rem;
+  }
+  .info img{
+    height: 15px;
+    padding-right: 10px;
+  }
+  .container{
+    padding: 100px 0;
+    margin: 0 180px;
+  }.infos{
+    width: 40%;
+  }
+  .form{
+    width: 60%;
+  }
+  .info{
+    padding-top: 10px;
+  }
+  form input,form textarea{
+    margin: 10px 0;
+    outline: none;
+    color: rgb(208, 208, 208);
+    background-color: rgb(26, 26, 26);
+    border:none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+  }
+  .button{
+    background-color: rgb(245, 187, 0);
+    color: black;
+    font-size: 1.2rem;;
+    width: 100%;
+    padding: 5px ;
+    border-color: none;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    margin-top: 15px;
+  }
+  .footer{
+    padding-top: 45px ;
+    width: 100px;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .footerLinks{
+    justify-content: space-between;
+    background-color: transparent;
+    border-color: none;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #git{
+    background-color: white;
+    padding: 1px 3px ;
+  }
+  .copyright{
+    text-align: center;
+    opacity: 60%;
+    font-size: small;
+    padding-bottom: 40px;
+  }
+  .cross,.menu{
+    display: none;
+  }
+  .menuButton{
+    background-color: transparent;
+    border: 0px;
+  }
+  #resume a:hover{
+    color: rgb(195, 150, 0);
+  }
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+  
+  @media screen and (max-width:1250px) {
+    .leftSection{
+      font-size: 1.5rem;
+    }
+    .firstSection div{
+      width: 100%;
+    }
+    .firstSection{
+      flex-direction: column;
+    }
+    .aproject{
+      padding-right: 30px;
+      padding-left: 10px;
+    }
+    .secondSection div {
+      margin: auto;
+      max-width: 100vw;
+  }
+  .heading{
+    padding-left: 10px;
+  }
+  /* .div3{
+    display: flex;
+    flex-direction: column;
+  } */
+  .thirdSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .s-set1{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .s11{
+    width: 100%;
+    
+  }
+  .l3{
+    width: 100%;
+  }
+  .s12{
+    width: 100%;
+    margin-top: 40px;
+  }
+  .r3{
+    width: 100%;
+    
+  }
+  .exp{
+    margin-left: 10px;
+    margin-right: 12px;
+  }
+  .fourthSection{
+    flex-direction: column;
+    width: 90%;
+
+  }
+  .infos{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .left {padding-left: 10px;}
+  .cross,.menu{
+    display: block;
+    
+  }
+  #sm1{
+    margin-top: 50px;
+  }
+  .right{
+    padding-top: 0px;
+  }
+  nav ul{
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    margin-top: 0;
+    opacity: 90%;
+    position: fixed;
+    flex-direction: column;
+    height: 100vh;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    justify-content:flex-start;
+    z-index: 2;
+  }
+  nav ul li{
+    font-size: large;
+    padding: 10px 0;
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  nav ul .cross{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+
+  }
+  .navdiv{
+    width: 90%;
+  }
+  }

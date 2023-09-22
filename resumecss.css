@@ -1,0 +1,256 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    background-color: #e0e0e0;
+    padding: 0px 0px;
+    margin:0 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.name{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Prata', serif;
+    color: #304145;
+    font-weight: bold;
+
+    font-size: 40px;
+    text-align: left;
+    margin-left: 15vw;
+}
+.section2{
+    display: flex;
+}
+.left{
+    width: 60%;
+    padding-top: 50px;
+    margin-left: 0;
+}
+.details{
+    max-width: 100vw;
+background-color: #304145;
+color:#e0e0e0;
+
+}
+.right{
+    width: 30%;
+    padding-top: 50px;
+    margin-right: 0;
+    margin-left:auto;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-left: solid;
+    border-color: #304145;
+    color: rgb(0, 0, 0);
+    
+}
+.details img{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.headings{
+    color: #304145;
+    font-family: 'Prata', serif;
+    padding-bottom: 10px;
+}
+.upper{
+    border-bottom: solid;
+    border-color: #e0e0e0;
+}
+.upper,.lower{
+
+    
+    display: flex;
+   
+}
+.links{
+    height: 40px;
+    width: 100px;
+    background-color:#304145;
+    border: solid;
+    border-color: #e0e0e0;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.links img {
+    margin-left: 10px;
+}
+.rl, .ru{
+    width: 30%;
+    margin-right: 15%;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-left: auto;
+}
+.ll,.lu{
+    
+
+    border-right: solid;
+
+    margin-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #e0e0e0;
+    width: 63.5%;
+}
+a{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.sections{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.button{
+    position: fixed;
+    top: 30px;
+    left: 30px; 
+    
+}
+.back{
+    background-color:#304145;
+    border-radius: 25px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.button a{
+    color:#e0e0e0;
+    font-size: small;
+}
+.button a:hover{
+    color:#c1bfb9;
+}
+.footer{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.copyright{
+    margin: auto;
+}
+.mhr{
+    display: none;
+}
+.mdetail{
+    display: none;
+}
+.subheadings{
+    font-weight:normal;
+}
+
+@media screen and (max-width:1250px){
+    .container{
+        width: 80vw;
+        padding-top: 0;
+    }
+
+    .sections{
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    .name{
+        font-size: 30px;
+    }
+    .section2{
+        flex-direction: column;
+        padding-top: 0;
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+    .button{
+        position: fixed;
+        top: 10px;
+        left: 10px; 
+        
+
+       
+        
+    }
+    .back{
+        padding-left: 5px;
+        padding-top: 8px;
+        padding-right: 10px;
+    }
+    .left{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .projects{
+        background-color: #cacdcf;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .headings{
+        padding-bottom: 30px;
+    }
+    .sections h2{
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    .hr{
+        display: none;
+    }
+    .right{
+        margin-left: 0;
+        padding-left: 0px;
+        margin-right: 0;
+        padding-right: 0;
+        width: 100%;
+        border: none;
+    }
+    .experience{
+        background-color: #cacdcf;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .footer{
+        background-color: #cacdcf;
+    }
+    .details{
+        display: none;
+    }
+    .mdetail{
+        background-color: #304145;
+        border-bottom: solid;
+        border-color: #c1bfb9;
+        padding-left: 10%;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    .mdetail img{
+        padding-right: 10px;
+    }
+    .mhr{
+        display: block;
+        border-color: #304145;
+        background-color: #304145;
+    }
+    .name{
+        margin-left: 10vw;
+        padding-right: 10px;
+    }
+    .education, .skills,.courses{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    
+    
+}
